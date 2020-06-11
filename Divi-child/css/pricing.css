@@ -1,0 +1,85 @@
+.pricing-plan h3 {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.heading-p p{text-align: center;width:60%;margin: auto;}
+.pricing-plan span {
+    color: #0674ec;
+}
+.heading-p p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+.plan-box h5 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 25px;
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+.plan-box hr {
+    border-color: #ccc;
+}
+.pricing-ul {
+    padding-left: 0px;
+    list-style-position: inside;
+}
+.price-number {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.plan-box {
+    background: #eff1f5;
+    padding: 0px 39px 30px;
+}
+.price-number {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.pricing-ul li {
+    line-height: 30px;
+}
+
+.heading-p {
+    margin-bottom: 33px;
+}
+
+.btnPlan {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 14px;
+    color: #fff;
+	position: relative;
+}
+.self-hr{width: 100%;height:4px;}
+.red-hr{background: #ff6a6d;}
+.blue-hr{background: #0674ec;}
+.red .btnPlan {
+    background: #ff6a6d;
+}
+.blue .btnPlan {
+    background: #0674ec;
+}
+.price-number span {
+    font-size: 25px;
+}
+.red span{color: #ff6a6d;}
+.yellow-hr{background: #feb71d;}
+.yellow .btnPlan {
+    background: #feb71d;
+}
+.yellow span{color: #feb71d;}
+.pricing-plan {
+    padding-bottom: 55px;
+}

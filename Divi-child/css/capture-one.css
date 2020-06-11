@@ -1,0 +1,149 @@
+html,body{height:100%;}
+.full-height{height: 100%;}
+.capture-box {
+    width: 500px;
+    margin: auto;
+    background: rgba(2, 2, 2,0.8);
+    padding: 10px 25px 10px;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+.capture-box h3 {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #e3051c;
+    text-align: center;
+    line-height: 45px;
+    margin-bottom: 15px;
+}
+
+.capture-box h4 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    font-size: 20px;
+}
+.capture-box .form-control {
+    border-radius: 0px;
+}
+.btnCapture {
+    background: #e3051c;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.capture-box h5 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    font-size: 18px;
+}
+.capture-three .capture-box {
+    background: #fff;
+    margin-top: 7%;
+    border-radius: 0px;
+}
+.capture-box h1 {
+    text-align: center;
+    font-size: 42px;
+    line-height: 57px;
+    color: rgb(255, 153, 0);
+	margin-bottom: 25px;
+}
+.capture-box h6 {
+    font-size: 26px;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 25px;
+    color: #800000;
+    font-weight: bold;
+}
+.capture-three{height: auto !important;}
+.capture-three-form .form-control {
+    width: 60%;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 6px;
+}
+.capture-three-form .form-group {
+    margin-bottom: 3px;
+}
+.capture-three-form .form-control {
+    width: 60%;
+    border-radius: 20px;
+    padding: 0px 20px;
+    margin: auto;
+    box-shadow: 0px 3px #ccc;
+}
+.capture-three-form {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+.btnInstant {
+    margin: 22px auto 10px;
+    display: block;
+    background: transparent;
+    border: 0px;
+}
+.capture-three {
+    height: auto !important;
+    padding-bottom: 65px;
+}
+@media only screen and (orientation : landscape) and (min-width: 320px) and (max-width: 767px)
+{
+	.capture-box {
+		width: 100%;
+	}
+	.capture-box h3 {
+		font-size: 20px;
+		margin-top: 10px;
+		color: #e3051c;
+		text-align: center;
+		line-height: 24px;
+		margin-bottom: 15px;
+	}
+	
+	.capture-box h1{font-size: 23px;line-height: 40px;}
+	.capture-box h6 br {
+		display: none;
+	}
+	.capture-three-form .form-control {
+		width: 65%;
+		border-radius: 20px;
+		padding: 0px 20px;
+		margin: auto;
+		box-shadow: 0px 3px #ccc;
+	}
+	
+}
+@media only screen and (orientation : portrait) and (min-width: 320px) and (max-width: 767px)
+{
+	.capture-box {
+		width: 100%;
+	}
+	.capture-box h3 {
+		font-size: 20px;
+		margin-top: 10px;
+		color: #e3051c;
+		text-align: center;
+		line-height: 24px;
+		margin-bottom: 15px;
+	}
+	.capture-box h1{font-size: 23px;line-height: 40px;}
+	.capture-box h6 br {
+		display: none;
+	}
+	.capture-three-form .form-control {
+		width: 85%;
+		border-radius: 20px;
+		padding: 0px 20px;
+		margin: auto;
+		box-shadow: 0px 3px #ccc;
+	}
+}

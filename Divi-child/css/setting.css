@@ -1,0 +1,172 @@
+.dashboard {
+    background: #efefef;
+}
+.dashboard-box {
+    background: #efefef;
+    padding: 25px;
+    border-radius: 9px;
+    margin-top: 12px;
+	position:relative;
+}
+.setting-tabs .nav-tabs li a {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 0px;
+    margin-left: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+.setting-tabs .nav-tabs li:first-child a {
+    margin-left: 0px;
+}
+.setting-tabs .nav>li>a:focus, .setting-tabs .nav>li>a:hover {
+    border-color: #ca1302;
+    color: #fff;
+    background: #ca1302;
+}
+.setting-tabs .nav-tabs{border-bottom:0px}
+.setting-tabs .nav-tabs>li.active>a, .setting-tabs .nav-tabs>li.active>a:focus, .setting-tabs .nav-tabs>li.active>a:hover {
+    background: #CA1302;
+    color: #fff;
+    border-color: #CA1302;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+.setting-tabs {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.profile-div {
+    background: #ffff;
+    padding: 25px 30px;
+    border-radius: 6px;
+}
+.profile-box h3 {
+    margin-top: 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.profile-box h3:after {
+    content: "";
+    display: table;
+    width: 80px;
+    height: 2px;
+    background: #CA1302;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.profile-form label {
+    text-align: left !important;
+    font-size: 12px;
+}
+.profile-form .form-control {
+    font-size: 12px;
+}
+.previewBtn, .previewBtn:hover,.previewBtn:focus,.previewBtn:active{background: #CA1302;border-color:#CA1302;}
+.hidden-select, .removeBtnAdd{display:none}
+#services-select {
+    margin-top: 12px;
+}
+.btnAdd {
+    background: #ca1302;
+    border: 1px solid #ca1302;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.btnAdd i {
+    font-size: 11px;
+    margin-right: 4px;
+}
+.btn-red, .btn-red:hover, .btn-red:focus , .btn-red:active{background: #ca1302 !important;border-color:#ca1302 !important;}
+.btn-save{margin-top: 15px;}
+div#no-more-tables {
+    margin-top: 25px;
+    overflow-y: auto;
+}
+.btnDelete {
+    background: #ca1302;
+    color: #fff;
+    border-color: #ca1302;
+    border: 1px solid;
+}
+.profile-box h4 label{font-weight: normal}
+.credit-card-box h4 {
+    background: #efefef;
+    padding: 15px 25px 8px;
+	margin: 0px;
+}
+.credit-card-box h4 input[type="checkbox"]{margin-right:5px}
+.credit-card-box {
+    margin-top: 35px;
+}
+.credit-card-box-data {
+    border: 1px solid #ccc;
+}
+.card-tabs .nav-tabs li a {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 0px;
+    margin-left: 10px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 5px 8px;
+}
+.card-tabs .nav-tabs li:first-child a {
+    margin-left: 0px;
+}
+.card-tabs .nav>li>a:focus, .card-tabs .nav>li>a:hover {
+    border-color: #ca1302;
+    color: #fff;
+    background: #ca1302;
+}
+.card-tabs .nav-tabs{border-bottom:0px}
+.card-tabs .nav-tabs>li.active>a, .card-tabs .nav-tabs>li.active>a:focus, .card-tabs .nav-tabs>li.active>a:hover {
+    background: #CA1302;
+    color: #fff;
+    border-color: #CA1302;
+    text-transform: uppercase;
+	cursor: pointer;
+}
+.card-tabs {
+    padding: 0px 15px;
+    margin: 12px 0px;
+}
+.card-form {
+    padding: 0px 25px;
+    margin-bottom: 10px;
+}
+.paypal-form {
+    margin-top: 15px;
+}
+
+.slybroadcast-form {
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    background: #ececec;
+    padding: 20px 25px 10px;
+    border-radius: 5px;
+}
+.toggle.btn {
+    min-width: 125px !important;
+    min-height: 34px !important;
+}
+
+.toggle-handle {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    width: 65px !important;
+    border-width: 0 1px;
+    border-radius: 0px;
+}
+.toggle-on.btn{text-align: left;}
+.btnRegister{display: inline-block;margin-top: -4px;padding: 3px 15px;}

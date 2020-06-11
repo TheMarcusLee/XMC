@@ -1,0 +1,81 @@
+.member-login {
+    background: #e4041c;
+    color: #fff !important;
+    padding: 0px 15px;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 4px;
+}
+.step-head-one h2 {
+    font-size: 44px;
+    margin-top: 42px;
+    color: #e4041d;
+    margin-bottom: 3px;
+    text-shadow: 2px 0px 5px #333333;
+}
+.step-head-one h4 {
+    font-size: 32px;
+    margin-top: 0px;
+}
+.arows {
+    font-size: 45px;
+    color: #e4041d;
+    text-shadow: 3px 1px 3px #333333;
+    margin-bottom: 20px;
+}
+.video-box video {
+    width: 100%;
+}
+
+.video-box {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.hover-play {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 555555555;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+    height: 99%;
+}
+.hover-play a {
+    color: #fff;
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-top: 23%;
+}
+.modal {
+    z-index: 55555555555555555;
+}
+.video-popup video {
+    width: 100%;
+}
+.modal-header {
+    padding: 7px 15px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.profile-div h4 b {
+    color: #e4041d;
+}
+
+
+.getStareted {
+    display: inline-block;
+    background: #e4041e;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: -8px;
+    margin-bottom: 30px;
+}

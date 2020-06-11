@@ -1,0 +1,210 @@
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+}
+
+.dropdown-menu {
+    top: 60px;
+}
+
+.dropdown-button {
+    background: #333333;
+    color: #fff;
+    padding: 11px 15px;
+    border-radius: 0px;
+}
+
+.custom-dropdown {
+    margin-top: 0px;
+}
+
+.table-div {
+    margin-bottom: 35px;
+}
+
+.camp-action {
+    font-size: 19px;
+    margin-right: 10px;
+    color: #e4041c;
+}
+
+.add-earning a {
+    background: #e1071b;
+    color: #fff;
+    padding: 8px 7px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: -7px;
+    border-radius: 3px;
+}
+
+.add-earning {
+    margin-top: 0px;
+}
+
+.btncapaign {
+    margin-right: 30px;
+}
+
+.profile-form label input {
+    margin-top: 0px;
+}
+
+.mobilehidden-div label {
+    margin-bottom: 6px !important;
+}
+
+.day-ul li {
+    width: 100%;
+}
+
+.day-ul {
+    margin-bottom: 0px;
+}
+
+.mobilehidden-div {
+    display: none;
+}
+
+.dayhidden-div {
+    display: none;
+}
+
+.campaign-page {
+    margin-top: 40px;
+}
+
+.media-uploader h4 {
+    background: #333333;
+    color: #ffff;
+    font-size: 17px;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.video-uploader {
+    background: #efefef;
+    padding: 15px 15px 20px;
+    margin-bottom: 30px;
+}
+
+.js .file-return {
+    font-style: italic;
+    font-size: .9em;
+    font-weight: bold;
+    background: #ffff;
+    padding: 10px 12px;
+    margin-left: -3px;
+    margin-top: 0px;
+    min-width: 52%;
+    min-height: 35px;
+    position: relative;
+    top: 12px;
+    margin-right: 12px;
+}
+
+.media-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-pic {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-pic p {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 0px;
+    opacity: 0;
+}
+
+.media-pic:hover .hover-pic p {
+    opacity: 1;
+    transition: all 200ms ease-in;
+}
+
+.delete {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #ca1302;
+    color: #fff;
+    padding: 0px 5px;
+    border-radius: 0px 0px 5px 5px;
+    opacity: 0;
+}
+
+.media-pic:hover .delete {
+    opacity: 1;
+    transition: all 200ms ease-in;
+}
+
+.media-pic {
+    margin-bottom: 20px;
+}
+
+.multiselect-container.dropdown-menu {
+    max-height: 260px;
+    overflow-y: scroll;
+}
+
+
+/* //// sidebar css */
+
+.sidebar {
+    min-height: unset !important;
+}
+
+.dashboard {
+    background: #333333 !important;
+}
+
+.no-padding-right {
+    padding-right: 0px;
+}
+
+.dashboard-box {
+    background: #333333 !important;
+}
+
+.pages-bg {
+    background: #efefef !important;
+    min-height: 600px !important;
+    padding: 0px 35px !important;
+}
+
+.dashboard-box>.row {
+    margin: 0px !important;
+}
+
+.sub_headpart_right {
+    float: right;
+}
+
+.table-heading:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.table-heading hr {
+    display: none
+}
+
+.table-heading {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding-bottom: 9px;
+}

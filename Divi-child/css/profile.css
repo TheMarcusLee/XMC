@@ -1,0 +1,79 @@
+a:hover,a:focus,a:active{text-decoration: none !important}
+.profile-form .form-group {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.edit-profile {
+    font-size: 15px;
+    background: #e1071a;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.edit-profile:hover{background: #e1071a;
+    color: #fff;}
+	
+	
+.panel-heading {
+    background: transparent !important;
+	padding: 0px;
+}
+.panel-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    position: relative;
+}
+.panel-title:after{
+	content: "";
+    display: table;
+    width: 80px;
+    height: 2px;
+    background: #CA1302;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.panel-title a {
+    display: block;
+}
+.panel-title i {
+    float: right;
+    font-size: 12px;
+}
+.panel-title h4 {
+    display: block;
+}
+.panel-default {
+    border-color: transparent;
+    box-shadow: none;
+}
+.panel-group .panel+.panel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body{border:0px}
+.panel-body {
+    padding: 10px 0px;
+    margin: 0px -15px;
+}
+.hidden-fields{display: none;}
+.my-form {
+    margin: 0px -15px;
+}
+.show-fields{display: block;}
+
+.apbf {
+    display: none;
+}
+.a3pr {
+    display: none;
+}
+.auto_respo{
+    display: none;
+}
+.creditcard{
+    display: none;
+}
+.paypalform{
+    display: none;
+}

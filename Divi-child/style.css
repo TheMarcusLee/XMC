@@ -1,0 +1,123 @@
+/*
+ Theme Name:     Divi Child Theme
+ Theme URI:      https://www.elegantthemes.com/gallery/foxy/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+@import url("../Divi/style.css");
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.et_fixed_nav #main-header, .et_fixed_nav #top-header
+{
+    background-color: white;
+    
+}
+.login_register_btn {
+    text-align: right;
+    width: 95%;
+    position: absolute;
+    z-index: 9;
+    top: 13%;
+}
+.login_register_btn a {
+    background-color: #e00719;
+    color: #fff;
+    padding: 7px 24px;
+    margin: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.login_register_form {
+    width: 50%;
+    height: 37px;
+    background-color: #000;
+    position: absolute;
+    z-index: 9;
+    margin: 3% 22%;
+}
+
+.header_btn {
+    text-align: right;
+}
+.login_btn {
+    display: inline-block;
+    right: 0;
+    background-color: #e3051c;
+    padding: 8px 26px;
+    border-radius: 4px;
+    margin-right: 18px;
+	margin-bottom: 11px;
+}
+.login_btn a {
+    color: #fff;
+    font-size: 17px;
+}
+a.btn.btn-danger.take_action_now_btn {
+    font-size: 23px;
+    padding: 0.4vw 1.5vw;
+    background-color: #e3051c;
+    box-shadow: 0 2px 2px 1px #171515;
+    width: 400px;
+}
+.take_action_btn {
+    position: absolute;
+    bottom: 44px;
+    z-index: 9;
+    text-align: center;
+    width: 100%;
+}
+
+.info_page {
+    position: relative;
+}
+.et_fixed_nav.et_show_nav #page-container, .et_non_fixed_nav.et_transparent_nav.et_show_nav #page-container{
+	padding-top:0 !important;
+}
+/* ds9
+.et_fixed_nav #main-header, .et_fixed_nav #top-header{
+	position:relative !important;
+} */
+.et_header_style_left .logo_container{
+	position:relative !important;
+}
+#logo{
+	max-height:300px !important;
+	width:250px !important;	
+	margin-top:15px;
+	margin-bottom:15px;
+}
+/* ds9 body.admin-bar.et_fixed_nav #main-header{
+	top:0 !important;
+}*/
+
+#custom_row {
+    width: 100%!important;
+    max-width: 100%!important;
+}
+.btn_group {
+    text-align: right;
+    padding-top: 35px;
+}
+/* Media screen for mobile */
+@media only screen and (max-width: 600px) {
+	.take_action_btn {
+		position: absolute;
+		bottom: 13px !important;
+		z-index: 9;
+		text-align: center;
+		width: 100%;
+	}
+    a.btn.btn-danger.take_action_now_btn {
+		font-size: 18px !important;
+		padding: 0.4vw 1.5vw;
+		background-color: #e3051c;
+		box-shadow: 0 2px 2px 1px #171515;
+		width: 242px !important;
+	}
+}

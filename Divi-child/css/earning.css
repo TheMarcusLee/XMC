@@ -1,0 +1,35 @@
+.table-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.earning-page {
+    background: #efefef;
+}
+
+.table-box {
+    padding: 15px 15px;
+    background: #fff;
+    border-radius: 0px;
+    margin-top: 35px;
+}
+.table-box table th {
+    background: #d9edf7;
+}
+.table-heading h5 {
+    font-size: 18px;
+    font-weight: bold;
+	margin-bottom:10px;
+}
+.table-heading hr {
+    border-color: #ccc;
+    margin-top: 13px;
+}
+.table-box {
+    padding: 15px 15px;
+    background: #fff;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+.heading-earnings{margin-top: 6px;display: inline-block;font-size: 17px;}
